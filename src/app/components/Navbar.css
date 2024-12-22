@@ -1,0 +1,156 @@
+/* General Navbar Styles */
+h1, h2, h3 {
+  font-weight: 700; /* Adjust weight as needed */
+  font-size: 30px; /* Larger font size for headings */
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px; /* Larger font size for paragraphs */
+}
+
+.navbar {
+  border: 1px solid #000000; /* Black border */
+  border-right: none;
+  border-left: none;
+  z-index: 2;
+  opacity: 100%;
+  display: flex;
+  height: 80px; /* Increased navbar height */
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px; /* Increased padding */
+  background-color: #000000; /* Black background */
+  color: #FFA726; /* Orange for text */
+  box-shadow: 3px 3px 6px rgba(3, 3, 0, 0.2); /* Slight shadow for depth */
+}
+
+.navbar-logo {
+  margin-left: 30px; /* Increased margin */
+  font-size: 32px; /* Larger font size for logo */
+  font-weight: bold;
+  color: #FF5722; /* Orange-red logo */
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Increased gap */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #FF9800; /* Bright orange */
+  font-size: 20px; /* Increased font size */
+  transition: color 0.3s;
+}
+
+.navbar-links li a:hover {
+  color: #D84315; /* Dark orange-red hover effect */
+}
+
+/* Search Bar and Buttons */
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Increased gap */
+}
+
+/* Search Bar Styles */
+.search-bar {
+  height: 40px; /* Increased height */
+  min-width: 150px; /* Increased width */
+  text-align: center;
+  padding: 10px 10px 10px 10px; /* Increased padding */
+  font-size: 20px; /* Increased font size */
+  border: 1px solid #FFA726; /* Orange border */
+  border-radius: 25px; /* Larger border-radius */
+  background: #212121; /* Dark gray background */
+  color: #FFA726; /* Orange text */
+}
+
+.search-bar::placeholder {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 20px; /* Increased placeholder font size */
+  color: #FFA726; /* Placeholder color */
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+/* Button Styles */
+.btn {
+  height: 50px; /* Increased height */
+  width: 50px; /* Increased width */
+  border: none;
+  padding: 10px 15px; /* Increased padding */
+  border-radius: 6px; /* Larger border-radius */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #FF9800; /* Bright orange */
+}
+
+.btn img {
+  height: fit-content;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #D84315; /* Dark orange-red hover effect */
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 6px; /* Increased gap */
+}
+
+.hamburger .bar {
+  width: 30px; /* Increased width */
+  height: 5px; /* Increased height */
+  background-color: #FF5722; /* Orange-red bars */
+}
+
+.navbar-actions-mob {
+  display: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 968px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    background-color: #212121; /* Dark gray for dropdown */
+    position: absolute;
+    top: 80px; /* Increased top margin */
+    right: 40px; /* Increased right margin */
+    padding: 20px; /* Increased padding */
+    border-radius: 10px; /* Larger border-radius */
+  }
+
+  .navbar-links.show-menu {
+    width: 100vw;
+    background-color: #000000; /* Black background */
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+@media (max-width: 596px) {
+  .navbar-actions-mob .btn {
+    gap: 40px; /* Increased gap */
+  }
+
+  .navbar-actions {
+    display: none;
+  }
+}
