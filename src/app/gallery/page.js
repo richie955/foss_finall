@@ -27,8 +27,8 @@ const Gallery = () => {
 
   return (
     <div className="bg-black min-h-screen py-12 px-6">
-      <h1 className="text-4xl text-orange-600 font-extrabold text-center mb-8 uppercase">
-        FOSSCELL Memories
+      <h1 className="text-left text-5xl font-extrabold text-orange-600 uppercase md:ml-36 border-b border-orange-700 pb-4 mb-10">
+       GALLERY
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {images.map((image, index) => (

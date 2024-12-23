@@ -9,8 +9,9 @@ module.exports = {
   theme: {
   	extend: {
   		fontFamily: {
-  			custom: ['myfont', 'sans-serif']
+  			inter: ['Inter', 'Sans']
   		},
+		
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

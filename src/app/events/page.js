@@ -9,7 +9,7 @@ const Events = () => {
       description:
         "Join us at FOSSMEET 2024 to explore the latest trends in open-source software. Register now!",
       link: "/#fossmeet",
-      image: "/1.avif"
+      image: "/1 (8).avif"
     },
     {
       title: "Open Source Hackathon",
@@ -17,6 +17,7 @@ const Events = () => {
       description:
         "A thrilling hackathon for developers to showcase their skills and collaborate on open-source projects.",
       link: "/#hackathon",
+      image: "/1 (6).avif"
     },
 
     {
@@ -25,7 +26,7 @@ const Events = () => {
         description:
           "Join us at FOSSMEET 2024 to explore the latest trends in open-source software. Register now!",
         link: "/#fossmeet",
-        image: "/1.avif"
+        image: "/1 (2).avif"
       },
 
       {
@@ -34,7 +35,7 @@ const Events = () => {
         description:
           "Join us at FOSSMEET 2024 to explore the latest trends in open-source software. Register now!",
         link: "/#fossmeet",
-        image: "/1.avif"
+        image: "/1 (3).avif"
       },
 
       {
@@ -43,7 +44,7 @@ const Events = () => {
         description:
           "Join us at FOSSMEET 2024 to explore the latest trends in open-source software. Register now!",
         link: "/#fossmeet",
-        image: "/1.avif"
+        image: "/1 (2).avif"
       },
 
     {
@@ -52,6 +53,7 @@ const Events = () => {
       description:
         "Join industry leaders as they share insights into the world of open-source technology and innovation.",
       link: "/#techtalks",
+      image: "/1 (4).avif"
     },
   ];
 
@@ -68,6 +70,7 @@ const Events = () => {
             date={event.date}
             description={event.description}
             link={event.link}
+            image={event.image}
           />
         ))}
       </div>

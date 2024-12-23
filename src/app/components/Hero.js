@@ -3,9 +3,9 @@ import "./Hero.css";
 
 const Hero = () => {
   const images = [
-    "foss1.jpg", // Replace with your image URLs
-    "foss2.jpg",
-    "foss3.jpg",
+    "/1 (2).avif", // Replace with your image URLs
+    "/1 (2).avif"
+    ,"/1 (2).avif",
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -29,18 +29,20 @@ const Hero = () => {
 
   return (
     <div
-      className="-mt-[9vh] sm:mt-auto hero-section w-screen h-screen"
+      className="-mt-[9vh] max-w-7xl mx-auto sm:mt-auto hero-section w-screen h-screen"
       style={{ backgroundImage: `url(${images[currentImage]})` }}
     >
-      <div className="hero-overlay bg-black w-full h-full flex flex-col items-center justify-center text-center">
+
+    
+      <div className="hero-overlay bg-black w-full h-[90vh] flex flex-col items-center justify-center text-center">
         <a
-          href="/#events"
+          href="/events"
           className="bg-orange-500 text-black font-bold border-black p-3 px-6  text-lg mb-8 flex items-center justify-center gap-3 max-w-md"
         >
           {heroData.Offer}
         </a>
 
-        <h1 className="px-4 text-5xl sm:text-7xl font-extrabold text-orange-200 mb-6">
+        <h1 className="px-4 text-5xl sm:text-7xl font-bold text-orange-200 mb-6">
           {heroData.MainText}
         </h1>
 
@@ -52,13 +54,13 @@ const Hero = () => {
 
         <div className="flex gap-6">
           <a
-            href="/#schedule"
+            href="/schedule"
             className="bg-orange-600 font-bold text-black px-8 py-4 text-lg hover:bg-orange-500 transition"
           >
             View Schedule
           </a>
           <a
-            href="/#register"
+            href="/register"
             className="bg-orange-200 font-bold text-black px-8 py-4  text-lg hover:bg-gray-300 transition"
           >
             Register Now

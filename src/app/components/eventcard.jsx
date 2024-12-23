@@ -5,7 +5,7 @@ const EventCard = ({ title, date, description, link, image }) => {
     <div className="bg-gray-900 text-orange-200  shadow-lg  max-w-sm">
       {/* Image at the top of the card */}
       <img
-        src="/1 (2).avif"
+        src={image}
         alt={title}
         className="w-full h-44 object-cover  mb-4"
       />

@@ -10,7 +10,7 @@ const UpcomingEvents = () => {
       description:
         "Join us at FOSSMEET 2024 to explore the latest trends in open-source software. Register now!",
       link: "/#fossmeet",
-      image: "/1.avif",
+      image: "/1 (3).avif",
     },
     {
       title: "Open Source Hackathon",
@@ -18,7 +18,7 @@ const UpcomingEvents = () => {
       description:
         "A thrilling hackathon for developers to showcase their skills and collaborate on open-source projects.",
       link: "/#hackathon",
-      image: "/2.avif", // Example image for the event
+      image: "/1 (1).avif", // Example image for the event
     },
     {
       title: "Tech Talks with Experts",
@@ -26,7 +26,7 @@ const UpcomingEvents = () => {
       description:
         "Join industry leaders as they share insights into the world of open-source technology and innovation.",
       link: "/#techtalks",
-      image: "/3.avif", // Example image for the event
+      image: "/1 (2).avif", // Example image for the event
     },
   ];
 
