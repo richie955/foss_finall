@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <div className="bg-black min-h-screen text-orange-700">
+    <div className="bg-black min-h-screen text-orange-700 px-6">
       {/* Header Section */}
       <div className="text-center py-20 bg-gray-950">
         <h1 className="text-4xl font-bold mb-4 font-instSansB">FOSSMeet'24</h1>

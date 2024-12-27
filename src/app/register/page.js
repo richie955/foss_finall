@@ -9,7 +9,7 @@ export default function Register() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-950">
+    <div className="min-h-screen flex items-center justify-center bg-gray-950 px-6">
       <div className="w-full max-w-md p-8 border border-orange-700 shadow-md">
         <h2 className="text-2xl font-bold mb-4 text-center text-orange-600">Register</h2>
         <form onSubmit={handleRegister}>

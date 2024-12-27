@@ -37,7 +37,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="container p-6 flex flex-col bg-black text-orange-600 justify-end">
+    <div className="container p-6 mx-auto flex flex-col bg-black text-orange-600 justify-end">
        <h1 className="text-left text-5xl font-extrabold text-orange-600 uppercase md:ml-36 border-b border-orange-700 pb-4 mb-10">
        FAQS
       </h1>

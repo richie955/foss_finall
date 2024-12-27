@@ -16,30 +16,30 @@ const Footer = () => {
         </div>
 
         {/* Navigation Links */}
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 text-md md:text-lg text-orange-300 mb-6 text-center">
+        <div className="flex  sm:flex-row gap-4 sm:gap-6 text-md md:text-lg text-orange-300 mb-6 text-center">
           <a
-            href="#about"
+            href="/about"
             className="hover:text-orange-500 transition duration-300"
           >
             About
           </a>
           <a
-            href="#events"
+            href="/events"
             className="hover:text-orange-500 transition duration-300"
           >
             Events
           </a>
           <a
-            href="#schedule"
+            href="/schedule"
             className="hover:text-orange-500 transition duration-300"
           >
             Schedule
           </a>
           <a
-            href="#contact"
+            href="/register"
             className="hover:text-orange-500 transition duration-300"
           >
-            Contact
+          Register
           </a>
         </div>
 
@@ -95,7 +95,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="mt-8 border-t border-orange-700 pt-4 text-center text-orange-300 text-md md:text-lg">
-        © {new Date().getFullYear()} FOSSMEET. All rights reserved.
+        © richiejames955 | All rights reserved.
       </div>
     </footer>
   );

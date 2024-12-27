@@ -27,7 +27,7 @@ export default function DropdownAnimation() {
           <a href="/">FOSSMEET'24</a>
         </div>
 
-        <ul className="navbar-links font-bold uppercase ">
+        <ul className="navbar-links font-inter font-bold uppercase ">
           <li><a href="/">Home</a></li>
           <li><a href="/gallery">GAllery</a></li>
           <li><a href="/events">Events</a></li>
@@ -51,7 +51,7 @@ export default function DropdownAnimation() {
 
       <div className="bg-black">
         <div
-          className={`transition-all duration-300 ease-in-out ${
+          className={`transition-all duration-300 ease-in-out mb-10 ${
             isMenuOpen ? "max-h-[290px] opacity-100" : "max-h-0 py-0 opacity-0"
           }`}
         >
@@ -59,10 +59,10 @@ export default function DropdownAnimation() {
             <ul className="flex flex-col text-xl pl-6 uppercase font-extrabold">
               <li className="border-b mb-4 py-1 border-yellow-700"><a href="/">Home.</a></li>
               <li className="border-b mb-4 py-1 border-yellow-700"><a href="/events">Events.</a></li>
-              <li className="border-b mb-4 py-1 border-yellow-700"><a href="/schedule">Schedule</a></li>
+              <li className="border-b mb-4 py-1 border-yellow-700"><a href="/schedule">Schedule.</a></li>
               <li className="border-b mb-4 py-1 border-yellow-700"><a href="/#FAQ">FAQ.</a></li>
               <li className="border-b mb-4 py-1 border-yellow-700"><a href="/about">About Us.</a></li>
-              <li className="border-b pb-2 border-yellow-700"><a href="/gallery">Gallery</a></li>
+              <li className="border-b pb-2 border-yellow-700"><a href="/gallery">Gallery.</a></li>
             </ul>
           </div>
         </div>

@@ -29,12 +29,12 @@ const Hero = () => {
 
   return (
     <div
-      className="-mt-[9vh] max-w-7xl mx-auto sm:mt-auto hero-section w-screen h-screen"
-      style={{ backgroundImage: `url(${images[currentImage]})` }}
+      className="mt-[5vh] sm:mt-0 max-w-7xl  mx-auto hero-section relative "
+    
     >
 
     
-      <div className="hero-overlay bg-black w-full h-[90vh] flex flex-col items-center justify-center text-center">
+      <div className="hero-overlay   w-full h-[90vh] flex flex-col items-center justify-center text-center">
         <a
           href="/events"
           className="bg-orange-500 text-black font-bold border-black p-3 px-6  text-lg mb-8 flex items-center justify-center gap-3 max-w-md"
@@ -52,16 +52,16 @@ const Hero = () => {
           {heroData.Description}
         </p>
 
-        <div className="flex gap-6">
+        <div className="flex gap-6 px-6 ">
           <a
             href="/schedule"
-            className="bg-orange-600 font-bold text-black px-8 py-4 text-lg hover:bg-orange-500 transition"
+            className="bg-orange-600 font-bold  text-orange-200 px-8 py-4 text-md md:text-lg hover:bg-orange-500 transition"
           >
             View Schedule
           </a>
           <a
             href="/register"
-            className="bg-orange-200 font-bold text-black px-8 py-4  text-lg hover:bg-gray-300 transition"
+            className="bg-orange-200 font-bold text-black px-8 py-4  text-md md:text-lg hover:bg-gray-300 transition"
           >
             Register Now
           </a>
