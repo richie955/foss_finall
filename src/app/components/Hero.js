@@ -55,13 +55,13 @@ const Hero = () => {
         <div className="flex gap-6 px-6 ">
           <a
             href="/schedule"
-            className="bg-orange-600 font-bold  text-orange-200 px-8 py-4 text-md md:text-lg hover:bg-orange-500 transition"
+            className="bg-orange-600 font-bold  text-orange-200 px-6 sm:px-8 py-4 text-sm sm:text-lg hover:bg-orange-500 transition"
           >
             View Schedule
           </a>
           <a
             href="/register"
-            className="bg-orange-200 font-bold text-black px-8 py-4  text-md md:text-lg hover:bg-gray-300 transition"
+            className="bg-orange-200 font-bold text-black px-6 sm:px-8 py-4  text-sm sm:text-lg hover:bg-gray-300 transition"
           >
             Register Now
           </a>

@@ -32,7 +32,7 @@ const OpenSourceOrganizations = () => {
     <div className="container p-6 px-8 flex flex-col bg-black mx-auto">
          <section className="mb-16 ">
 
-         <h1 className="text-left text-5xl font-extrabold text-orange-600 uppercase md:ml-36 border-b border-orange-700 pb-4 mb-10">
+         <h1 className="text-left text-4xl sm:text-5xl font-extrabold text-orange-600 uppercase md:ml-36 border-b border-orange-700 pb-4 mb-10">
         Why FOSS?
       </h1>
       <div className="max-w-7xl mx-auto">
@@ -61,7 +61,7 @@ const OpenSourceOrganizations = () => {
       
    
 
-      <h1 className="text-left text-5xl font-extrabold text-orange-600 uppercase md:ml-36 border-b border-orange-700 pb-4 mb-10">
+      <h1 className="text-left text-4xl  sm:text-5xl font-extrabold text-orange-600 uppercase md:ml-36 border-b border-orange-700 pb-4 mb-10">
         Prominnet FOSS Organizations
       </h1>
       <div className="max-w-[76rem] mx-auto">
