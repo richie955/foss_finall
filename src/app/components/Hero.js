@@ -34,7 +34,7 @@ const Hero = () => {
     >
 
     
-      <div className="hero-overlay   w-full h-[90vh] flex flex-col items-center justify-center text-center">
+      <div className="hero-overlay   w-full h-[65vh] md:h-[80vh] flex flex-col items-center justify-center text-center">
         <a
           href="/events"
           className="bg-orange-500 text-black font-bold border-black p-3 px-6  text-lg mb-8 flex items-center justify-center gap-3 max-w-md"
