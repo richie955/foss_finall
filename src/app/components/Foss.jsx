@@ -29,7 +29,7 @@ const OpenSourceOrganizations = () => {
   ];
 
   return (
-    <div className="container p-6 px-8 flex flex-col bg-black mx-auto">
+    <div className="container p-6 px-8 mt-10 flex flex-col bg-black mx-auto">
          <section className="mb-16 ">
 
          <h1 className="text-left text-4xl sm:text-5xl font-extrabold text-orange-600 uppercase md:ml-36 border-b border-orange-700 pb-4 mb-10">
